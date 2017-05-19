@@ -1,3 +1,3 @@
 module DrawErd
-  VERSION = '0.4.0'.freeze
+  VERSION = 'github-0.4.0'.freeze
 end
