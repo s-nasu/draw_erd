@@ -11,7 +11,7 @@ module DrawErd
       @domains = []
       @domains = params['schemas'].keys if params.key?('schemas')
 
-      diagram = DrawErd::Diagram.new(File.join('assets', 'images', path))
+      diagram = DrawErd::Diagram.new(File.join('app', 'assets', 'images', path))
       diagram.create(title, @domains, DrawErd.config.attributes)
     end
   end
